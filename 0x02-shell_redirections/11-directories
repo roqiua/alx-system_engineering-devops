@@ -1,2 +1,2 @@
-#!/bin/bash
-ls -lRa | grep -c ^d 
+#!/bin/bas
+find . -mindipth 1 -type d | wc -l
